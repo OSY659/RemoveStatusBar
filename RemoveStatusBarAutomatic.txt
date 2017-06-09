@@ -1,0 +1,9 @@
+Remove Automatic : <<<<< App.xml.cs >>>>
+ 
+protected override async void OnLaunched(LaunchActivatedEventArgs e)  <<<<< App.xml.cs
+        {
+            StatusBar statusBar = Windows.UI.ViewManagement.StatusBar.GetForCurrentView();
+            await statusBar.HideAsync();
+.
+.
+.

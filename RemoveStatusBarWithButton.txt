@@ -1,0 +1,7 @@
+Remove with button:
+private async void button2_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            await Windows.UI.ViewManagement.StatusBar.GetForCurrentView().HideAsync();
+        }
+
+
